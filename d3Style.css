@@ -1,0 +1,32 @@
+/* Students:
+ * =========
+ * Add styling to your d3 chart with this file. */
+.state{
+		fill: steelblue;
+		stroke: white;
+		shape-rendering: crispEdges;
+}
+.state:hover{
+	fill:orange;
+}
+
+.label{
+	stroke:blue;
+}
+
+.abbr:hover{
+	fill:black;
+}
+
+.t-tip {	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
